@@ -1,0 +1,44 @@
+body {
+    font-family: Roboto;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+  
+    @media screen and (min-width: 1200px) {
+      font-size: 18px;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  ul,
+  ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    display: block;
+  }

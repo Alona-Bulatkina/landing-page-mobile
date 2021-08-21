@@ -1,0 +1,10 @@
+.main-bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('../images/mobile/fon1-2x.jpg');
+
+    @media screen and (min-width: 1200px) {
+        background-image: url('../images/desctop/fon1-4x.jpg');
+      }
+}  
