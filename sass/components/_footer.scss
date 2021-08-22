@@ -1,0 +1,67 @@
+footer {
+    padding-bottom: 16px;
+}
+.footer__heading {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 124%;
+
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+.footer__text {
+    line-height: 124%;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+.footer__contakts {
+    line-height: 160%;
+    color: #FFFFFF;
+
+    &:hover, &:focus {
+        color: #2196f3;
+    }
+}
+
+.footer__contakts-item {
+    margin-bottom: 28px;
+}
+.social__item {
+    display: flex;
+    width: 35px;
+    height: 33px;
+    border-radius: 50% 50%;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 5px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+.social {
+    display: flex;
+    margin-bottom: 58px;
+}
+/*.footer__border::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background: #FFFFFF;
+    border-radius: 1px;
+}*/
+
+.footer__company {
+    font-size: 18px;
+    line-height: 124%;
+
+    color: #FFFFFF;
+    text-align: center;
+
+}

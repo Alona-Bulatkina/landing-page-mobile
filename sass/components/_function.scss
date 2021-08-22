@@ -1,0 +1,79 @@
+.function__heading {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 52px;
+    text-align: center;
+
+    color: #000000;
+
+    margin-bottom: 8px;
+}
+
+.function__text {
+    line-height: 124%;
+    text-align: center;
+    letter-spacing: 0.08em;
+
+    color: #ABABAB;
+
+    margin-bottom: 5px;
+}
+
+.function__list-heading {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 124%;
+
+    color: #000000;
+    margin-bottom: 3px;
+}
+.function__list-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 124%;
+
+    color: #B0B0B0;
+}
+.function__box-icon {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    border-radius: 50% 50%;
+    background: linear-gradient(180deg, #8253D8 0%, #D05DDE 100%);
+    justify-content: center;
+    align-items: center;
+
+    float: left;
+
+    margin-right: 13px;
+
+} 
+    .function__icon {
+    fill:  #FFFFFF;
+}
+.function__list-item {
+    margin-bottom: 33px;
+}
+.function__image {
+max-width: 283px;
+height: 573px;
+
+margin-right: auto;
+margin-left: auto;
+margin-top: 51px;
+margin-bottom: 51px;
+
+background-image: url(../images/mobile/telefone2@2x.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+@media screen and (min-width: 1920px) {
+max-width: 438px;
+height: 886px;
+margin-right: auto;
+margin-left: auto;
+
+background-image: url(../images/desctop/telefone2@4x.png);
+}
+}

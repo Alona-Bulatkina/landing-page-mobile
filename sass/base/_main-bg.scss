@@ -1,10 +1,42 @@
 .main-bg {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 50%;
-    background-image: url('../images/mobile/fon1-2x.jpg');
 
-    @media screen and (min-width: 1200px) {
-        background-image: url('../images/desctop/fon1-4x.jpg');
+  max-width: 371px;
+  max-height: 1079px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../images/mobile/fon1-2x.jpg');
+
+    @media screen and (min-width: 1920px) {
+      max-width:1920px;
+      max-height: 1076px;
+
+      background-image: url('../images/desctop/fon1-4x.jpg');
       }
 }  
+
+/*.footer-bg {
+  max-width: 374px;
+  max-height: 606px;
+  margin-right: auto;
+  margin-left: auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: url('../images/mobile/fon2-2x.jpg');
+
+    @media screen and (min-width: 1920px) {
+      max-width:1920px;
+      max-height: 523px;
+
+      background-image: url('../images/desctop/fon2-4x.jpg');
+      }
+}*/
+.footer-bg {
+  background: linear-gradient(179.98deg, #8253D8 27.09%, #D05DDE 99.98%);
+
+}

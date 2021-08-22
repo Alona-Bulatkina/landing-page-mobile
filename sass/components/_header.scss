@@ -1,5 +1,13 @@
 .head {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 37px;
+
+    @media screen and (min-width: 1200px) {
+        display: flex;
+
+    }
 }
 
 .head__box {
@@ -12,6 +20,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 24px;
 line-height: 124%;
+
+color: #FFFFFF;
 
 @media screen and (min-width: 1200px) {
     font-size: 36px;
@@ -29,16 +39,15 @@ color: #FFFFFF;
 .head__nav-list {
     display: none;
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
         display: flex;
+        margin-left: 300px;
     }
-}
-.head__nav-list {
-    display: flex;
 }
 .head__social {
     display: none;
-    @media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1200px) {
         display: flex;
     }
 }
@@ -54,6 +63,5 @@ color: #FFFFFF;
     &:not(:last-child) {
       margin-right: 10px;
     }
-  }
+}
 
-  

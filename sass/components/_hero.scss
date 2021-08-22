@@ -1,0 +1,76 @@
+.hero__heading {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 124%;
+    color: #FFFFFF;
+       
+    text-align: center;
+    margin-bottom: 9px;
+}
+  
+.hero__text {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 124%;
+      
+    text-align: center;
+    margin-bottom: 20px;
+
+    color: #FFFFFF;
+}
+
+.hero__box {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.hero__box-link {
+    display: flex;
+
+    width: 200px;
+    height: 53px;
+
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+    align-items: center;
+    justify-content: center;
+
+    padding: 16px;
+    margin-bottom: 16px;
+    
+    color: #FFFFFF;
+
+&:last-child {
+    margin-bottom: 31px;
+}
+}
+
+.hero__box-link-icon {
+    fill:#FFFFFF;
+    margin-right: 5px;
+}
+.hero-image {
+max-width: 271px;
+height: 325px;
+margin-right: auto;
+margin-left: auto;
+
+background-image: url(../images/mobile/telefone1@2x.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+margin-bottom: 269px;
+
+@media screen and (min-width: 1200px) {
+max-width: 646px;
+height: 776px;
+margin-right: auto;
+margin-left: auto;
+
+background-image: url(../images/desctop/telefone1@4x.png);
+}
+}
