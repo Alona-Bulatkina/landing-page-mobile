@@ -1,11 +1,8 @@
 .head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 37px;
+   margin-bottom: 37px;
 
-    @media screen and (min-width: 1200px) {
-        display: flex;
+    @media screen and (min-width: 1920px) {
+        margin-bottom: 0;
 
     }
 }
@@ -13,6 +10,7 @@
 .head__box {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
@@ -23,11 +21,17 @@ line-height: 124%;
 
 color: #FFFFFF;
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
     font-size: 36px;
 }
 }
+.head__item {
+    margin-right: 24px;
 
+    &:last-child {
+        margin-right: 0;
+    }
+}
 .head__nav-link {
 font-style: normal;
 font-weight: bold;
@@ -39,15 +43,15 @@ color: #FFFFFF;
 .head__nav-list {
     display: none;
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
         display: flex;
-        margin-left: 300px;
+        margin-left: 767px;
     }
 }
 .head__social {
     display: none;
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
         display: flex;
     }
 }
@@ -56,12 +60,15 @@ color: #FFFFFF;
     width: 25px;
     height: 25px;
     border-radius: 50% 50%;
+
     background-color: #ffffff;
     justify-content: center;
     align-items: center;
-  
-    &:not(:last-child) {
-      margin-right: 10px;
+
+    margin-right: 20px;
+
+    &:last-child {
+      margin-right: 0;
     }
 }
 

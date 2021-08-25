@@ -318,15 +318,9 @@ img {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1920px) {
   .container {
-    max-width: 768px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1220px;
+    max-width: 1920px;
   }
 }
 
@@ -335,7 +329,7 @@ header {
   padding-bottom: 43px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   header {
     padding-top: 55px;
     padding-bottom: 66px;
@@ -343,21 +337,19 @@ header {
 }
 
 .head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   margin-bottom: 37px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .head {
-    display: flex;
+    margin-bottom: 0;
   }
 }
 
 .head__box {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -368,10 +360,18 @@ header {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .logo {
     font-size: 36px;
   }
+}
+
+.head__item {
+  margin-right: 24px;
+}
+
+.head__item:last-child {
+  margin-right: 0;
 }
 
 .head__nav-link {
@@ -386,10 +386,10 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .head__nav-list {
     display: flex;
-    margin-left: 300px;
+    margin-left: 767px;
   }
 }
 
@@ -397,7 +397,7 @@ header {
   display: none;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .head__social {
     display: flex;
   }
@@ -411,10 +411,11 @@ header {
   background-color: #ffffff;
   justify-content: center;
   align-items: center;
+  margin-right: 20px;
 }
 
-.head__social-item:not(:last-child) {
-  margin-right: 10px;
+.head__social-item:last-child {
+  margin-right: 0;
 }
 
 .mobil-modal {
@@ -444,7 +445,7 @@ header {
   background: none;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .menu-toggle {
     display: none;
   }
@@ -514,6 +515,22 @@ header {
   margin-top: 30px;
 }
 
+@media screen and (min-width: 1920px) {
+  .wrap {
+    width: 1456px;
+    margin: 0 auto;
+    height: 1076px;
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .hero__box-text {
+    width: 600px;
+    padding-top: 150px;
+  }
+}
+
 .hero__heading {
   font-weight: bold;
   font-size: 28px;
@@ -521,6 +538,14 @@ header {
   color: #FFFFFF;
   text-align: center;
   margin-bottom: 9px;
+}
+
+@media screen and (min-width: 1920px) {
+  .hero__heading {
+    font-size: 48px;
+    margin-bottom: 14px;
+    text-align: left;
+  }
 }
 
 .hero__text {
@@ -532,10 +557,26 @@ header {
   color: #FFFFFF;
 }
 
+@media screen and (min-width: 1920px) {
+  .hero__text {
+    font-size: 20px;
+    margin-bottom: 44px;
+    text-align: left;
+  }
+}
+
 .hero__box {
   flex-direction: column;
   display: flex;
   align-items: center;
+}
+
+@media screen and (min-width: 1920px) {
+  .hero__box {
+    justify-content: left;
+    flex-direction: inherit;
+    align-items: flex-start;
+  }
 }
 
 .hero__box-link {
@@ -556,6 +597,17 @@ header {
   margin-bottom: 31px;
 }
 
+@media screen and (min-width: 1920px) {
+  .hero__box-link {
+    margin-right: 21px;
+    margin-bottom: 0;
+  }
+  .hero__box-link:last-child {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}
+
 .hero__box-link-icon {
   fill: #FFFFFF;
   margin-right: 5px;
@@ -573,13 +625,36 @@ header {
   margin-bottom: 269px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
   .hero-image {
     max-width: 646px;
     height: 776px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0;
     background-image: url(../images/desctop/telefone1@4x.png);
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 800px;
+    right: 10px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .function {
+    width: 1456px;
+    height: 1291px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 99px;
+    padding-bottom: 74px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .function__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 
@@ -592,12 +667,27 @@ header {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 1920px) {
+  .function__heading {
+    font-size: 46px;
+    line-height: 66px;
+    margin-bottom: 23px;
+  }
+}
+
 .function__text {
   line-height: 124%;
   text-align: center;
   letter-spacing: 0.08em;
   color: #ABABAB;
   margin-bottom: 5px;
+}
+
+@media screen and (min-width: 1920px) {
+  .function__text {
+    font-size: 18px;
+    margin-bottom: 183px;
+  }
 }
 
 .function__list-heading {
@@ -608,11 +698,35 @@ header {
   margin-bottom: 3px;
 }
 
+@media screen and (min-width: 1920px) {
+  .function__list-heading {
+    font-size: 22px;
+  }
+}
+
 .function__list-text {
   font-weight: normal;
   font-size: 14px;
   line-height: 124%;
   color: #B0B0B0;
+}
+
+@media screen and (min-width: 1920px) {
+  .function__list-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .function__list {
+    width: 437px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .function__list-right {
+    width: 437px;
+  }
 }
 
 .function__box-icon {
@@ -635,6 +749,12 @@ header {
   margin-bottom: 33px;
 }
 
+@media screen and (min-width: 1920px) {
+  .function__list-item {
+    margin-bottom: 174px;
+  }
+}
+
 .function__image {
   max-width: 283px;
   height: 573px;
@@ -651,15 +771,29 @@ header {
 @media screen and (min-width: 1920px) {
   .function__image {
     max-width: 438px;
-    height: 886px;
-    margin-right: auto;
-    margin-left: auto;
+    min-height: 886px;
     background-image: url(../images/desctop/telefone2@4x.png);
+    position: absolute;
+    display: block;
+    top: 320px;
+    left: 500px;
+    right: 10px;
+    margin: 0;
   }
 }
 
-footer {
-  padding-bottom: 16px;
+@media screen and (min-width: 1920px) {
+  .footer-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .footer_box-text {
+    width: 518px;
+  }
 }
 
 .footer__heading {
@@ -670,10 +804,24 @@ footer {
   margin-bottom: 6px;
 }
 
+@media screen and (min-width: 1920px) {
+  .footer__heading {
+    font-size: 28px;
+    margin-bottom: 13px;
+  }
+}
+
 .footer__text {
   line-height: 124%;
   color: #FFFFFF;
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__text {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
 }
 
 .footer__contakts {
@@ -687,6 +835,12 @@ footer {
 
 .footer__contakts-item {
   margin-bottom: 28px;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__contakts-item {
+    margin-bottom: 0;
+  }
 }
 
 .social__item {
@@ -704,27 +858,55 @@ footer {
   margin-right: 0;
 }
 
+@media screen and (min-width: 1920px) {
+  .social__item {
+    margin-right: 26px;
+    width: 50px;
+    height: 47px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .social__icon {
+    width: 22px;
+    height: 20px;
+  }
+}
+
 .social {
   display: flex;
   margin-bottom: 58px;
 }
 
-/*.footer__border::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background: #FFFFFF;
-    border-radius: 1px;
-}*/
+.footer__border {
+  border: none;
+  background-color: #FFFFFF;
+  color: #FFFFFF;
+  height: 2px;
+  margin-top: 58px;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__border {
+    margin-top: 84px;
+  }
+}
+
 .footer__company {
   font-size: 18px;
   line-height: 124%;
   color: #FFFFFF;
   text-align: center;
+  padding-top: 18px;
+  padding-bottom: 16px;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer__company {
+    font-size: 20px;
+    padding-top: 48px;
+    padding-bottom: 39px;
+  }
 }
 
 .main-bg {

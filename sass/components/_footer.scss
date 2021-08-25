@@ -1,5 +1,15 @@
-footer {
-    padding-bottom: 16px;
+.footer-box {
+    @media screen and (min-width: 1920px) {
+    display: flex;
+    align-items: center;
+justify-content: space-between;}
+}
+
+.footer_box-text {
+    @media screen and (min-width: 1920px) {
+        width: 518px;
+       
+    }
 }
 .footer__heading {
     font-weight: bold;
@@ -8,11 +18,21 @@ footer {
 
     color: #FFFFFF;
     margin-bottom: 6px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 28px;
+        margin-bottom: 13px;
+    }
 }
 .footer__text {
     line-height: 124%;
     color: #FFFFFF;
     margin-bottom: 32px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
 }
 .footer__contakts {
     line-height: 160%;
@@ -25,6 +45,11 @@ footer {
 
 .footer__contakts-item {
     margin-bottom: 28px;
+
+    @media screen and (min-width: 1920px) {
+        margin-bottom: 0;
+        
+    }
 }
 .social__item {
     display: flex;
@@ -40,22 +65,35 @@ footer {
     &:last-child {
         margin-right: 0;
     }
+    @media screen and (min-width: 1920px) {
+        margin-right: 26px;
+        width: 50px;
+        height: 47px;
+    }
 }
+.social__icon {
+    @media screen and (min-width: 1920px){
+    width: 22px;
+    height: 20px;
+}
+}
+
 .social {
     display: flex;
     margin-bottom: 58px;
 }
-/*.footer__border::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 4px;
-    bottom: 0;
-    left: 0;
-    background: #FFFFFF;
-    border-radius: 1px;
-}*/
+.footer__border {
+    border: none;
+    background-color: #FFFFFF;
+    color: #FFFFFF; 
+    height: 2px;
+
+    margin-top: 58px;
+    
+    @media screen and (min-width: 1920px) {
+    margin-top: 84px;
+    }
+}
 
 .footer__company {
     font-size: 18px;
@@ -64,4 +102,12 @@ footer {
     color: #FFFFFF;
     text-align: center;
 
+    padding-top: 18px;
+    padding-bottom: 16px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 20px;
+        padding-top: 48px;
+        padding-bottom: 39px;
+    }
 }

@@ -1,3 +1,20 @@
+.function {
+    @media screen and (min-width: 1920px) {
+    width: 1456px;
+    height: 1291px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 99px;
+    padding-bottom: 74px;
+}
+}
+.function__box {
+    @media screen and (min-width: 1920px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
 .function__heading {
     font-weight: 500;
     font-size: 36px;
@@ -7,6 +24,12 @@
     color: #000000;
 
     margin-bottom: 8px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 46px;
+        line-height: 66px;
+        margin-bottom: 23px;
+    }
 }
 
 .function__text {
@@ -17,6 +40,12 @@
     color: #ABABAB;
 
     margin-bottom: 5px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 18px;
+        margin-bottom: 183px;
+        
+    }
 }
 
 .function__list-heading {
@@ -26,6 +55,10 @@
 
     color: #000000;
     margin-bottom: 3px;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 22px;
+    }
 }
 .function__list-text {
     font-weight: normal;
@@ -33,7 +66,24 @@
     line-height: 124%;
 
     color: #B0B0B0;
+
+    @media screen and (min-width: 1920px) {
+        font-size: 18px;
+    }
 }
+
+.function__list {
+    @media screen and (min-width: 1920px) {
+    width: 437px;
+}
+}
+
+.function__list-right {
+    @media screen and (min-width: 1920px) {
+    width: 437px;
+}
+}
+
 .function__box-icon {
     display: flex;
     width: 60px;
@@ -51,8 +101,13 @@
     .function__icon {
     fill:  #FFFFFF;
 }
+
 .function__list-item {
     margin-bottom: 33px;
+
+    @media screen and (min-width: 1920px) {
+        margin-bottom: 174px;
+    }
 }
 .function__image {
 max-width: 283px;
@@ -70,10 +125,15 @@ background-position: center;
 
 @media screen and (min-width: 1920px) {
 max-width: 438px;
-height: 886px;
-margin-right: auto;
-margin-left: auto;
-
+min-height: 886px;
 background-image: url(../images/desctop/telefone2@4x.png);
+
+position: absolute;
+display: block;
+top: 320px;
+left: 500px;
+right: 10px;
+margin: 0;
 }
 }
+ 

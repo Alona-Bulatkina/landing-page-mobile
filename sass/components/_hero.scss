@@ -1,3 +1,17 @@
+.wrap {
+    @media screen and (min-width: 1920px) {
+    width: 1456px;
+    margin: 0 auto;
+    height: 1076px;
+    position: relative;
+}
+}
+.hero__box-text {
+    @media screen and (min-width: 1920px){
+    width: 600px;
+    padding-top: 150px;
+}
+}
 .hero__heading {
     font-weight: bold;
     font-size: 28px;
@@ -6,6 +20,13 @@
        
     text-align: center;
     margin-bottom: 9px;
+
+    @media screen and (min-width: 1920px) {
+    font-size: 48px;
+    margin-bottom: 14px;
+    text-align: left;
+
+    }
 }
   
 .hero__text {
@@ -17,12 +38,24 @@
     margin-bottom: 20px;
 
     color: #FFFFFF;
+
+    @media screen and (min-width: 1920px) {
+    font-size: 20px;
+    margin-bottom: 44px;
+    text-align: left;
+    } 
 }
 
 .hero__box {
     flex-direction: column;
     display: flex;
     align-items: center;
+
+    @media screen and (min-width: 1920px) {
+    justify-content: left;
+    flex-direction: inherit;
+    align-items: flex-start;
+    }
 }
 
 .hero__box-link {
@@ -46,12 +79,22 @@
 &:last-child {
     margin-bottom: 31px;
 }
+@media screen and (min-width: 1920px) {
+    margin-right: 21px;
+    margin-bottom: 0;
+    &:last-child {
+        margin-bottom: 0;
+        margin-right:0;
+    }
+}
+
 }
 
 .hero__box-link-icon {
     fill:#FFFFFF;
     margin-right: 5px;
 }
+
 .hero-image {
 max-width: 271px;
 height: 325px;
@@ -65,12 +108,16 @@ background-position: center;
 
 margin-bottom: 269px;
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1920px) {
 max-width: 646px;
 height: 776px;
-margin-right: auto;
-margin-left: auto;
+margin: 0;
 
 background-image: url(../images/desctop/telefone1@4x.png);
+position: absolute;
+display: block;
+top: 0;
+left: 800px;
+right: 10px;
 }
 }
