@@ -29,8 +29,8 @@
             }
 }
 .menu-toggle__icon {
-    fill: white;
-  }
+    fill: #ffffff;
+    }
 .mobil-container {
       position: relative;
       display: flex;
@@ -44,7 +44,7 @@
       top: -21px;
       border: none;
       background: none;
-      fill: white;
+      fill: #ffffff;
     }
 
   .mobile-menu__item {
@@ -68,6 +68,7 @@
     opacity: 0;
     pointer-events: none;
     }
+
     .mobile-menu__social-item {
         display: flex;
         width: 40px;

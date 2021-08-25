@@ -452,7 +452,7 @@ header {
 }
 
 .menu-toggle__icon {
-  fill: white;
+  fill: #ffffff;
 }
 
 .mobil-container {
@@ -469,7 +469,7 @@ header {
   top: -21px;
   border: none;
   background: none;
-  fill: white;
+  fill: #ffffff;
 }
 
 .mobile-menu__item {
@@ -609,7 +609,7 @@ header {
 }
 
 .hero__box-link-icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
   margin-right: 5px;
 }
 
@@ -742,7 +742,7 @@ header {
 }
 
 .function__icon {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .function__list-item {
